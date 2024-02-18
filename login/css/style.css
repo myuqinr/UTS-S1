@@ -1,0 +1,157 @@
+:root {
+  --color1: #27374d;
+  --color2: #526d82;
+  --color3: #9db2bf;
+  --color4: #dde6ed;
+
+  --main1: #2596be;
+  --main2: #2187ab;
+  --main3: #1e7898;
+  --main4: #1a6985;
+  --main5: #165a72;
+  --main6: #134b5f;
+  --main7: #0f3c4c;
+  --main8: #0b2d39;
+  --main9: #071e26;
+  --main10: #040f13;
+  --main11: #000000;
+
+  --tints1: #2596be;
+  --tints2: #3ba1c5;
+  --tints3: #51abcb;
+  --tints4: #66b6d2;
+  --tints5: #7cc0d8;
+  --tints6: #92cbdf;
+  --tints7: #a8d5e5;
+  --tints8: #bee0ec;
+  --tints9: #d3eaf2;
+  --tints10: #e9f5f9;
+  --tints11: #ffffff;
+
+  --img1: #000342;
+  --img1v2: #000342a9;
+  --img2: #0d31bd;
+  --img3: #01013d;
+  --img4: #182a9a;
+  --img5: #000956;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../assets/gambar/blue-background-login.jpg");
+  background-size: cover;
+}
+
+.kembali {
+  background-color: var(--img1v2);
+  backdrop-filter: blur(20px);
+  padding: 1rem 3rem;
+}
+
+.kembali a {
+  display: flex;
+  text-decoration: none;
+}
+
+.kembali a p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.kembali img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2.6rem;
+}
+
+.login-box {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  width: 30%;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px 3px var(--color4);
+}
+
+.login-box h3 {
+  text-align: center;
+  margin: 0.3rem 1rem 3rem 1rem;
+  color: white;
+}
+
+.login-box label {
+  display: block;
+  color: white;
+}
+
+.username {
+  margin: 0.5rem 0;
+}
+
+.password {
+  margin: 0.5rem 0 0.3rem 0;
+}
+
+.username-input,
+.password-input {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.4rem 0.3rem;
+  width: 90%;
+}
+
+.lihat-password {
+  display: flex;
+  margin-left: 0.7rem;
+}
+
+.lihat-password label {
+  margin-left: 0.5rem;
+}
+
+.daftar {
+  display: flex;
+  margin: 0.8rem 0 2.9rem 0.7rem;
+}
+
+.daftar p {
+  color: white;
+}
+
+.daftar a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  color: var(--img2);
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit input {
+  padding: 0.7rem 1rem;
+  width: 97%;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--color2);
+  color: white;
+  cursor: pointer;
+}
+
+.submit input:hover {
+  background-color: var(--color1);
+}

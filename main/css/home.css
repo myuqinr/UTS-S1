@@ -1,0 +1,30 @@
+.container {
+  padding: 2rem;
+  justify-content: center;
+  /* display: flex; */
+}
+
+.image-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.container .image-slide img {
+  width: 94%;
+  height: 25rem;
+  border-radius: 0.5rem;
+  background-size: cover;
+}
+
+.container .image-kanan {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .image-kanan img {
+  width: 23.8rem;
+  height: 16rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}

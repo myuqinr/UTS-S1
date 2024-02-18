@@ -1,0 +1,200 @@
+:root {
+  --color1: #27374d;
+  --color2: #526d82;
+  --color3: #9db2bf;
+  --color4: #dde6ed;
+
+  --main1: #2596be;
+  --main2: #2187ab;
+  --main3: #1e7898;
+  --main4: #1a6985;
+  --main5: #165a72;
+  --main6: #134b5f;
+  --main7: #0f3c4c;
+  --main8: #0b2d39;
+  --main9: #071e26;
+  --main10: #040f13;
+  --main11: #000000;
+
+  --tints1: #2596be;
+  --tints2: #3ba1c5;
+  --tints3: #51abcb;
+  --tints4: #66b6d2;
+  --tints5: #7cc0d8;
+  --tints6: #92cbdf;
+  --tints7: #a8d5e5;
+  --tints8: #bee0ec;
+  --tints9: #d3eaf2;
+  --tints10: #e9f5f9;
+  --tints11: #e8e8e8;
+  --tints12: #ffffff;
+
+  --img1: #000342;
+  --img2: #0d31bd;
+  --img3: #01013d;
+  --img4: #182a9a;
+  --img5: #000956;
+}
+
+body {
+  background-color: var(--tints11);
+}
+
+.container {
+  padding: 1rem;
+}
+
+.hubungikami-txt {
+  text-align: center;
+  padding: 1rem;
+}
+
+.media-sosial {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.medsos {
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+  border: none;
+  margin: 1rem;
+  transition: 0.8s;
+}
+
+.medsos:hover {
+  transform: rotate(360deg);
+  border-radius: 50%;
+  transition: 0.9s;
+}
+
+.medsos img {
+  width: 3rem;
+  margin-bottom: -0.3rem;
+}
+
+.insta {
+  background-color: #ff4096;
+}
+
+.fb {
+  background-color: #3b5998;
+}
+
+.wa {
+  background-color: #25d366;
+}
+
+.tele {
+  background-color: #0088cc;
+}
+
+.twt {
+  background-color: #1da1f2;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+.container-maps-email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem 0 3rem 0;
+}
+
+.container-maps-email h3 {
+  margin: 1rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.container-maps {
+  width: 40rem;
+}
+
+.maps {
+  display: flex;
+  justify-content: center;
+}
+
+.maps iframe {
+  border-radius: 0.9rem;
+  width: 30rem;
+}
+
+.container-email {
+  width: 40rem;
+}
+
+.container-kontak-email {
+  justify-content: center;
+  display: flex;
+  padding: 0.1rem 0.7rem;
+}
+
+.container-kontak-email label {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.kontak-email {
+  display: inline-block;
+  padding: 1rem;
+  width: 83%;
+  border-radius: 0.5rem;
+  background-color: var(--color1);
+}
+
+.nama {
+  margin: 0.5rem 2rem;
+  color: white;
+}
+.nama input {
+  width: 70%;
+  padding: 0.6rem 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+
+.email {
+  margin: 1rem 2rem;
+  color: white;
+}
+
+.email input {
+  width: 70%;
+  padding: 0.6rem 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+
+.deskripsi {
+  margin: 0.4rem 2rem;
+  color: white;
+}
+
+.deskripsi textarea {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.kirim {
+  justify-content: end;
+  display: flex;
+}
+
+.btn-kirim {
+  margin-top: 2.1rem;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+}

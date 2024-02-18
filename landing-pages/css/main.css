@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --color1: #00023f;
+  --color2: #526d82;
+  --color3: #9db2bf;
+  --color4: #dde6ed;
+}
+
+.nav {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+}
+
+.nav h3 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nav ul li a {
+  color: white;
+}
+
+.link-nav ul {
+  display: flex;
+}
+
+.link-nav ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.link-nav ul li a {
+  text-decoration: none;
+}
+
+.pertama {
+  border: 1px solid black;
+  padding: 2rem 4rem;
+  height: 31.6rem;
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/gambar/firstbg.jpg");
+  background-size: cover;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kiri {
+  /* border: 1px solid white; */
+  width: 30rem;
+  padding: 2rem;
+  color: white;
+}
+
+.kiri p {
+  margin-bottom: 2rem;
+}
+
+.kiri a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #00023f;
+  border-radius: 0.5rem;
+  margin: 0 0 0 0.5rem;
+}
+
+.kiri a:hover {
+  background-color: #000487;
+  /* transform: scale(1.1); */
+  transition: 0.8s;
+}
+
+.kanan img {
+  width: 25rem;
+}
+
+.biografi-txt {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+
+.biografi-txt h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.biografi .txt {
+  margin: 0.2rem;
+}
+
+.biografi {
+  margin: 1rem 1rem 7rem 1rem;
+  /* border: 1px solid black; */
+  padding: 0 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+}
+
+.program-kursus {
+  /* border: 1px solid black; */
+  margin: 0 4rem 9rem 4rem;
+  padding: 1rem;
+}
+.program-kursus h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.program-kursus p {
+  text-align: center;
+}
+
+.program-kursus .konten-program-kursus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.7rem 0 0 0;
+}
+
+.konten-program-kursus .opsi-kursus {
+  margin: 1rem 0.5rem;
+  transition: 0.5s;
+}
+.konten-program-kursus .opsi-kursus:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.konten-program-kursus a {
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem 1rem;
+  background-color: #00023f;
+  border-radius: 0.5rem;
+}
+
+.harga-kursus {
+  /* border: 1px solid black; */
+  margin: 0 4rem 7rem 4rem;
+}
+
+.harga-kursus .teks-harga-kursus {
+  text-align: center;
+  margin: 0 0 1.5rem 0;
+}
+
+.teks-harga-kursus h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 0 0 0 0;
+}
+
+.harga-kursus .konten-harga-kursus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.konten-harga-kursus .card {
+  width: 20rem;
+  margin: 1rem;
+  /* border: 1px solid black; */
+  border-radius: 0.5rem;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.konten-harga-kursus .standard {
+  background-color: #3498db;
+  color: white;
+  transition: 0.5s;
+}
+
+.konten-harga-kursus .standard:hover {
+  background-color: #0062a3;
+  color: white;
+  transition: 0.5s;
+}
+
+.konten-harga-kursus .business {
+  background-color: #27ae60;
+  color: white;
+  transition: 0.5s;
+}
+.konten-harga-kursus .business:hover {
+  background-color: #007430;
+  color: white;
+  transition: 0.5s;
+}
+.konten-harga-kursus .premium {
+  background-color: #9b59b6;
+  color: white;
+  transition: 0.5s;
+}
+.konten-harga-kursus .premium:hover {
+  background-color: #a200e2;
+  color: white;
+  transition: 0.5s;
+}
+
+/* .konten-harga-kursus .card:hover {
+  transform: scale(1);
+  transition: 0.5s;
+} */
+.card .title {
+  text-align: center;
+  /* border: 1px solid black; */
+  margin: 1rem 0 1rem 0;
+}
+
+.card .title h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.card .title p {
+  font-size: 0.8rem;
+}
+
+.card .harga {
+  /* border: 1px solid black; */
+  margin: 1.5rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card .harga h3 {
+  margin: 0.3rem;
+  /* color: red; */
+}
+
+.card .fitur-unggulan {
+  padding: 0.5rem 1rem;
+}
+
+.card .fitur-unggulan h4 {
+  margin: 0 0 0.7rem 0;
+}
+.card .fitur-unggulan .list-fitur-unggulan {
+  margin: 0.3rem 1rem 0 1.3rem;
+}
+.card .fitur-unggulan .list-fitur-unggulan li {
+  margin: 1rem 0rem 0 1rem 0;
+  font-size: 0.9rem;
+  padding: 0.2rem 0;
+  /* color: red; */
+}
+
+.kelebihan-txt {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.kelebihan-txt h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.kelebihan {
+  margin: 0.5rem 1rem 7rem 1rem;
+  /* border: 1px solid black; */
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kelebihan .kartu {
+  border-radius: 1rem;
+  border: 1px solid black;
+  width: 20rem;
+  height: 13rem;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.kelebihan .kartu:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.kartu .ikon {
+  display: flex;
+  justify-content: center;
+}
+
+.kartu .ikon img {
+  width: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.kontakkami-txt {
+  background-color: #012070;
+  margin: 0 1.5rem;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.kontak-kami {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #012070;
+  margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.kontak-kami .maps iframe {
+  border-radius: 1rem;
+  width: 27rem;
+  margin-bottom: 1rem;
+}
+
+.kontak-kami .form-email {
+  border: 3px solid white;
+  width: 27rem;
+  padding: 2.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.form-email label {
+  font-weight: bolder;
+  font-size: 0.7rem;
+}
+
+.nama,
+.email,
+.deskripsi {
+  margin: 0.5rem 0.6rem;
+}
+
+.nama input,
+.email input {
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.3rem;
+  border: none;
+  width: 90%;
+}
+
+.deskripsi textarea {
+  border-radius: 0.4rem;
+  margin: 1rem 0.6rem;
+  width: 23.8rem;
+}
+
+.form-email label {
+  display: block;
+}
+
+.btn-kirim {
+  display: flex;
+  justify-content: end;
+  margin: 0.5rem;
+}
+
+.btn-kirim input {
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: #9db2bf;
+  color: black;
+}
+
+.media-sosial {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #012070;
+  margin: 0 1.5rem 4rem 1.5rem;
+  justify-content: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.medsos {
+  border-radius: 50%;
+  padding: 0.7rem;
+  border: none;
+  margin: 3rem 2rem;
+  transition: 0.8s;
+}
+
+.medsos:hover {
+  /* transform: scale(1.1); */
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  transition: 0.8s;
+}
+
+.medsos img {
+  width: 2rem;
+  margin-bottom: -0.4rem;
+}
+
+.insta {
+  background-color: #ff4096;
+}
+
+.fb {
+  background-color: #3b5998;
+}
+
+.wa {
+  background-color: #25d366;
+}
+
+.tele {
+  background-color: #0088cc;
+}
+
+.twt {
+  background-color: #1da1f2;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+footer {
+  background-color: #00023f;
+  margin-top: 1rem;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer .p1 {
+  font-size: 1.1rem;
+}
+
+footer .p1 {
+  font-size: 1.3;
+}

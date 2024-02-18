@@ -1,0 +1,149 @@
+:root {
+  --color1: #27374d;
+  --color2: #526d82;
+  --color3: #9db2bf;
+  --color4: #dde6ed;
+
+  --main1: #2596be;
+  --main2: #2187ab;
+  --main3: #1e7898;
+  --main4: #1a6985;
+  --main5: #165a72;
+  --main6: #134b5f;
+  --main7: #0f3c4c;
+  --main8: #0b2d39;
+  --main9: #071e26;
+  --main10: #040f13;
+  --main11: #000000;
+
+  --tints1: #2596be;
+  --tints2: #3ba1c5;
+  --tints3: #51abcb;
+  --tints4: #66b6d2;
+  --tints5: #7cc0d8;
+  --tints6: #92cbdf;
+  --tints7: #a8d5e5;
+  --tints8: #bee0ec;
+  --tints9: #d3eaf2;
+  --tints10: #e9f5f9;
+  --tints11: #ffffff;
+
+  --img1: #000342;
+  --img1v2: #000342a9;
+  --img2: #0d31bd;
+  --img3: #01013d;
+  --img4: #182a9a;
+  --img5: #000956;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../assets/gambar/blue-background-login.jpg");
+  background-size: cover;
+}
+
+.kembali {
+  background-color: var(--img1v2);
+  backdrop-filter: blur(20px);
+  padding: 1rem 3rem;
+}
+
+.kembali a {
+  display: flex;
+  text-decoration: none;
+}
+
+.kembali a p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.kembali img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2.6rem;
+}
+
+.daftar-box h3 {
+  color: white;
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.daftar-box {
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(20px);
+  box-shadow: 1px 1px 3px 3px var(--color4);
+}
+
+.daftar-box label {
+  color: white;
+  display: block;
+  margin: 0.4rem 0 1rem 0;
+}
+
+.daftar-box .input-form {
+  padding: 1.2rem 0.9rem;
+  width: 95%;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0 0 0 0.2rem;
+}
+
+.kotak {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-kotak {
+  margin: 1rem;
+  /* width: 100%; */
+  width: 24rem;
+}
+
+.login {
+  display: flex;
+  margin: 1rem 0 0 2rem;
+}
+
+.login p {
+  color: white;
+}
+
+.login a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  font-weight: bolder;
+  color: var(--img2);
+}
+
+.submit {
+  display: flex;
+  justify-content: end;
+}
+
+.submit input {
+  margin: 2rem 1rem 0 0;
+  padding: 0.7rem 1.9rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color2);
+  color: white;
+  cursor: pointer;
+}
+
+.submit input:hover {
+  background-color: var(--color1);
+}

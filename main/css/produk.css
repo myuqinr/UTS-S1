@@ -1,0 +1,251 @@
+:root {
+  --color1: #27374d;
+  --color2: #526d82;
+  --color3: #9db2bf;
+  --color4: #dde6ed;
+
+  --main1: #2596be;
+  --main2: #2187ab;
+  --main3: #1e7898;
+  --main4: #1a6985;
+  --main5: #165a72;
+  --main6: #134b5f;
+  --main7: #0f3c4c;
+  --main8: #0b2d39;
+  --main9: #071e26;
+  --main10: #040f13;
+  --main11: #000000;
+
+  --tints1: #2596be;
+  --tints2: #3ba1c5;
+  --tints3: #51abcb;
+  --tints4: #66b6d2;
+  --tints5: #7cc0d8;
+  --tints6: #92cbdf;
+  --tints7: #a8d5e5;
+  --tints8: #bee0ec;
+  --tints9: #d3eaf2;
+  --tints10: #e9f5f9;
+  --tints11: #e8e8e8;
+  --tints12: #ffffff;
+
+  --img1: #000342;
+  --img2: #0d31bd;
+  --img3: #01013d;
+  --img4: #182a9a;
+  --img5: #000956;
+}
+
+body {
+  background-color: var(--tints11);
+}
+
+.top-bar {
+  /* background-color: red; */
+  margin: 1.8rem 1.2rem 4rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  align-items: center;
+}
+
+.search {
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: end;
+}
+
+.search-input {
+  width: 12rem;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin-right: 0.5rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.search-input:focus {
+  width: 16rem;
+  transition: 0.3s;
+}
+
+.search img {
+  margin-bottom: -0.8rem;
+  display: inline-block;
+  width: 1.7rem;
+  padding: 0.2rem;
+  border-radius: 50%;
+  background-color: rgb(227, 227, 227);
+}
+
+.top-bar .cart-bag img {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+
+.cart-bag {
+  display: flex;
+}
+
+.txt-kategori {
+  margin: 1rem 2rem;
+}
+
+.kategori {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kategori .opsi-kategori {
+  padding: 0.5rem 1.2rem;
+  /* width: 7rem; */
+  text-align: center;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  margin: 0.5rem 0.5rem;
+  background-color: var(--main7);
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.opsi-kategori:hover {
+  background-color: var(--main6);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.opsi-kategori a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem 0rem;
+  justify-content: center;
+}
+
+.card {
+  width: 19rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 0.7rem;
+  background-color: var(--color4);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.gambar-kartu {
+  border: 1px solid black;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  height: 10rem;
+  background-image: url("../assets/gambar/gambar-default.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card .judul {
+  font-weight: bolder;
+  margin: 0.5rem 1rem;
+}
+
+.judul span {
+  display: inline-block;
+  margin: 0.4rem 0 0.1rem 0;
+}
+
+.kategori-kursus {
+  display: flex;
+  margin: 0rem 0rem 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.kategori-kursus-card {
+  margin: 0 0.3rem;
+}
+
+.harga-kursus {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-size: 0.9rem;
+}
+
+.harga-kursus-card {
+  margin: 0 0.3rem;
+}
+
+.card .caption {
+  font-size: small;
+  margin: 0 1rem;
+}
+
+.opsi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.opsi-card-kiri .cart {
+  margin: 1rem 0rem 0rem 1.5rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  background-color: rgb(198, 198, 198);
+  width: 1.5rem;
+}
+
+.opsi-card-kiri .cart:hover {
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.opsi-card-kiri .detail {
+  margin-left: 0.4rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  background-color: rgb(198, 198, 198);
+  width: 1.5rem;
+}
+
+.opsi-card-kiri .detail:hover {
+  background-color: grey;
+  transition: 0.3s;
+}
+
+.opsi-card-kanan a {
+  margin: 1rem 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--img4);
+  width: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.opsi-card-kanan a:hover {
+  background-color: var(--img5);
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img {
+  width: 1rem;
+  padding: 1rem;
+  background-color: rgb(192, 192, 192);
+  border-radius: 0.3rem;
+}
+
+.icon {
+  margin: 0rem 1rem 1rem 1rem;
+}

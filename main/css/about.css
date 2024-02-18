@@ -1,0 +1,91 @@
+:root {
+  --color1: #27374d;
+  --color2: #526d82;
+  --color3: #9db2bf;
+  --color4: #dde6ed;
+
+  --main1: #2596be;
+  --main2: #2187ab;
+  --main3: #1e7898;
+  --main4: #1a6985;
+  --main5: #165a72;
+  --main6: #134b5f;
+  --main7: #0f3c4c;
+  --main8: #0b2d39;
+  --main9: #071e26;
+  --main10: #040f13;
+  --main11: #000000;
+
+  --tints1: #2596be;
+  --tints2: #3ba1c5;
+  --tints3: #51abcb;
+  --tints4: #66b6d2;
+  --tints5: #7cc0d8;
+  --tints6: #92cbdf;
+  --tints7: #a8d5e5;
+  --tints8: #bee0ec;
+  --tints9: #d3eaf2;
+  --tints10: #e9f5f9;
+  --tints11: #e8e8e8;
+  --tints12: #ffffff;
+
+  --img1: #000342;
+  --img2: #0d31bd;
+  --img3: #01013d;
+  --img4: #182a9a;
+  --img5: #000956;
+}
+
+body {
+  background-color: var(--tints11);
+}
+
+.nav-kembali {
+  background-color: #01013d;
+  padding: 1rem 2.5rem;
+}
+
+.nav-kembali a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-kembali img {
+  margin-bottom: -0.4rem;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.biografi,
+.sejarah,
+.visimisi {
+  padding: 2rem;
+}
+
+.biografi h3,
+.sejarah h3,
+.visimisi h3 {
+  margin: 1rem;
+}
+
+.biografi p,
+.sejarah p {
+  margin: 0 2rem;
+}
+
+.visimisi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 24rem;
+}
+
+.visimisi ul li {
+  margin: 0.7rem 0;
+}
